@@ -1,0 +1,33 @@
+<h1 id="title">Summer Camp 2024</h1>
+<p id="description">If your child is attending Smith's Summer Camp this summer, please fill out this form. Thank you!</p>
+  <form id="survey-form">
+<input id="name" type="text" placeholder="name" required></input>
+<label for="name" id="name-label"> child's name</label>
+<input id="email" type="email" placeholder="email" required></input>
+<label for="email" id="email-label">your email</label>
+<input id="number" type="number" min="6" max="17" placeholder="number"></input>
+<label for="number" id="number-label">age</label><br>
+<label for "dropdown"></label>
+<select id="dropdown">
+  <option>select one</option>
+  <option value="daycamp">daycamp</option>
+  <option value="full experience">full experience
+</option>
+  </select><br>
+  <label>Does your child have any allergies?</label>
+  <input type="radio" name="allergy" value="yes">
+  <label for="yes">yes</label>
+  <input type="radio" name="allergy" value="no">
+  <label for="no">no</label>
+  <fieldset>
+  <input type="checkbox" value="basketball">Basketball</input>
+  <input type="checkbox" value="baseball">Baseball</input>
+  <input type="checkbox" value="cheer">Cheer</input>
+  <input type="checkbox" value="flag football">Flag Football</input>
+  <input type="checkbox" value="horseback">Horseback Riding</input>
+  <input type="checkbox" value="softball">Softball</input>
+  <input type="checkbox" value="volleyball">Volleyball</input>
+  </fieldset>
+  <textarea name="message" rows="10" cols="30"placeholder="Any additional information?"></textarea><br>
+  <input id="submit" type="submit">
+  </form>
